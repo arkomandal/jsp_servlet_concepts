@@ -24,10 +24,6 @@ CREATE TABLE `users` (
   UNIQUE KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1,	'Arko Mandal',	'arko.unified@gmail.com',	'123456'),
-(3,	'Bijay Das',	'bijay@gmail.com',	'123456');
-
 -- 2020-10-05 14:34:31
 ```
 
