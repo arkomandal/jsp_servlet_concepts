@@ -32,4 +32,4 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
 ```
 
 ### Run then Redirect to
-http://localhost:8080/login-jsp-servlet/auth.jsp
+http://localhost:8080/jsp-servlet-auth/auth.jsp
