@@ -33,7 +33,8 @@ public class LoginDao {
 			//STEP 5: Extract data from result set
 			ResultSet rs = preparedStatement.executeQuery();
 			if (rs.next()) {
-				username = rs.getString(2); //param two is name
+//				username = rs.getString(2); //param two is name
+				username = rs.getString("name");
 			}
 			
 			//STEP 6: Clean-up environment
